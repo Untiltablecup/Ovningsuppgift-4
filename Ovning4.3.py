@@ -6,4 +6,4 @@ def lönen(hur_många_kronor): #Definerar functionen lönen och tar in en parame
         öre_till_krona = öre_till_krona * 2  #Räknar ut den nya lönen för varje dag
         dagar += 1  #Räknar varje dag till lönen blir 10miljoner kr
     return"Det tar " +str(dagar)+ " dagar för att lönen ska bli 10miljoner kr!"  #Den returnerar en sträng som talar om hur många dagar det tar för lönen att bli 10miljoner kr
-print(lönen(10000000))  #Den anropar funtionen lönen och skriver ut resultatet
+print(lönen(10000000))  #Den anropar funtionen lönen, ger parametern ett värde av 10000000 och skriver sedan ut resultatet
